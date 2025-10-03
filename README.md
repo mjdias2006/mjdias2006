@@ -26,8 +26,8 @@ Dedico-me à construção de soluções escaláveis e eficientes, aplicando as m
 * **Link para a Demo Live:** Em desenvolvimento
 
 #### Futuro projeto 2
-* **Tecnologias:** Em breve
-* **Descrição:** Em breve
+* **Tecnologias:** Em desenvolvimento
+* **Descrição:** Em desenvolvimento
 * **Link para o Código:** Em desenvolvimento
 
 #### Futuro projeto 3
