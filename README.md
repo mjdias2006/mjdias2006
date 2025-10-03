@@ -13,7 +13,7 @@ Dedico-me à construção de soluções escaláveis e eficientes, aplicando as m
 | **Linguagens** | HTML5 |
 | **Front-end** | HTML |
 | **Back-end/Dados** | Em aprendizado |
-| **Ferramentas/Cloud** | Git, Figma, Linux  |
+| **Ferramentas/Cloud** | Git, Figma, Arch Linux  |
 
 ---
 
