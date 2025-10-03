@@ -2,7 +2,7 @@
 
 Sou um(a) discente Desenvolvedor de Sistemas, focado(a) em **Cibersegurança e Front-End**.
 
-Dedico-me à construção de soluções escaláveis e eficientes, aplicando as melhores práticas do mercado para **aprimorar a soberania de segurança digital do país**.
+Dedico-me à construção de soluções escaláveis e eficientes, aplicando as melhores práticas do mercado para **otimização de processos lógicos para garantir à soberania de segurança digital**.
 
 ---
 
@@ -20,28 +20,28 @@ Dedico-me à construção de soluções escaláveis e eficientes, aplicando as m
 ### 📂 Projetos em Destaque
 
 #### Cuida+ SESI Saúde
-* **Tecnologias:** .Javascript, HTML, CSS.
+* **Tecnologias:** Javascript, HTML, CSS
 * **Descrição:** Plataforma para agendamento de consultas, otimizando o fluxo de trabalho e o acesso à saúde do paciente.
-* **Link para o Código:** .Em breve.
-* **Link para a Demo Live:** .Em breve.
+* **Link para o Código:** Em breve
+* **Link para a Demo Live:** Em breve
 
 #### Futuro projeto 2
-* **Tecnologias:** .Em breve.
-* **Descrição:** .Em breve.
-* **Link para o Código:** .Em breve.
+* **Tecnologias:** Em breve
+* **Descrição:** Em breve
+* **Link para o Código:** Em breve
 
 #### Futuro projeto 3
-* **Tecnologias:** .Em breve.
-* **Descrição:** .Em breve.
-* **Link para o Código:** .Em breve.
+* **Tecnologias:** Em breve
+* **Descrição:** Em breve
+* **Link para o Código:** Em breve
 
 ---
 
 ### 🤝 Conecte-se Comigo
 
-* **LinkedIn:** .https://www.linkedin.com/in/mjdias2006.
+* **LinkedIn:** https://www.linkedin.com/in/mjdias2006
 * **Website/Portfólio Pessoal:** https://github.com/mjdias2006
-* **E-mail Profissional:** .mj.dias@proton.me.
+* **E-mail Profissional:** mj.dias@proton.me
 
 ---
 
