@@ -1,8 +1,8 @@
 ## 👨‍💻 Perfil Profissional | Miguel Jesus Dias
 
-Sou um(a) discente Desenvolvedor de Sistemas, focado(a) em **Cibersegurança e Front-End**.
+Sou Discente Desenvolvedor de Sistemas, focado(a) em **Cibersegurança e Front-End**.
 
-Dedico-me à construção de soluções escaláveis e eficientes, aplicando as melhores práticas do mercado para **otimização de processos lógicos, garantindo uma verdadeira soberania de dados**.
+Dedico-me à construção de soluções escaláveis e eficientes, aplicando as melhores práticas do mercado para **otimização de processos lógicos, garantindo a resiliência e soberania dos dados**.
 
 ---
 
@@ -25,22 +25,12 @@ Dedico-me à construção de soluções escaláveis e eficientes, aplicando as m
 * **Link para o Código:** Em desenvolvimento
 * **Link para a Demo Live:** Em desenvolvimento
 
-#### Futuro projeto 2
-* **Tecnologias:** Em desenvolvimento
-* **Descrição:** Em desenvolvimento
-* **Link para o Código:** Em desenvolvimento
-
-#### Futuro projeto 3
-* **Tecnologias:** Em desenvolvimento
-* **Descrição:** Em desenvolvimento
-* **Link para o Código:** Em desenvolvimento
-
 ---
 
 ### 🤝 Conecte-se Comigo
 
 * **LinkedIn:** https://www.linkedin.com/in/mjdias2006
-* **Website/Portfólio Pessoal:** https://github.com/mjdias2006
+* **GitHub Profile:** https://github.com/mjdias2006
 * **E-mail Profissional:** mj.dias@proton.me
 
 ---
