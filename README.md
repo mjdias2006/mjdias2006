@@ -1,8 +1,8 @@
-## 👨‍💻 Perfil Profissional | [Miguel Jesus Dias]
+## 👨‍💻 Perfil Profissional | Miguel Jesus Dias
 
 Sou um(a) discente Desenvolvedor de Sistemas, focado(a) em **Cibersegurança e Front-End**.
 
-Dedico-me à construção de soluções escaláveis e eficientes, aplicando as melhores práticas do mercado para **otimização de processos lógicos para garantir à soberania de segurança digital**.
+Dedico-me à construção de soluções escaláveis e eficientes, aplicando as melhores práticas do mercado para **otimização de processos lógicos, garantindo uma verdadeira soberania de dados**.
 
 ---
 
@@ -10,30 +10,30 @@ Dedico-me à construção de soluções escaláveis e eficientes, aplicando as m
 
 | Categoria | Tecnologias Principais |
 | :--- | :--- |
-| **Linguagens** | Portugol |
+| **Linguagens** | HTML5 |
 | **Front-end** | HTML |
-| **Back-end/Dados** | Em andamento |
-| **Ferramentas/Cloud** | Git, Figma |
+| **Back-end/Dados** | Em aprendizado |
+| **Ferramentas/Cloud** | Git, Figma, Linux  |
 
 ---
 
 ### 📂 Projetos em Destaque
 
 #### Cuida+ SESI Saúde
-* **Tecnologias:** Javascript, HTML, CSS
+* **Tecnologias:** HTML
 * **Descrição:** Plataforma para agendamento de consultas, otimizando o fluxo de trabalho e o acesso à saúde do paciente.
-* **Link para o Código:** Em breve
-* **Link para a Demo Live:** Em breve
+* **Link para o Código:** Em desenvolvimento
+* **Link para a Demo Live:** Em desenvolvimento
 
 #### Futuro projeto 2
 * **Tecnologias:** Em breve
 * **Descrição:** Em breve
-* **Link para o Código:** Em breve
+* **Link para o Código:** Em desenvolvimento
 
 #### Futuro projeto 3
-* **Tecnologias:** Em breve
-* **Descrição:** Em breve
-* **Link para o Código:** Em breve
+* **Tecnologias:** Em desenvolvimento
+* **Descrição:** Em desenvolvimento
+* **Link para o Código:** Em desenvolvimento
 
 ---
 
