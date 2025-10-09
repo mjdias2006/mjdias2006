@@ -10,18 +10,17 @@ Dedico-me à construção de soluções escaláveis e eficientes, aplicando as m
 
 | Categoria | Tecnologias Principais |
 | :--- | :--- |
-| **Linguagens** | HTML5 |
-| **Front-end** | HTML |
-| **Back-end/Dados** | Em aprendizado |
-| **Ferramentas/Cloud** | Git, Figma, Arch Linux  |
+| **Linguagens** | JavaScript |
+| **Front-end** | JavaScript |
+| **Back-end/Dados** | JavaScript |
+| **Ferramentas/Cloud** | Git, Figma, ParrotOS  |
 
 ---
 
 ### 📂 Projetos em Destaque
 
 #### Cuida+ SESI Saúde
-* **Tecnologias:** HTML
-* **Descrição:** Plataforma para agendamento de consultas, otimizando o fluxo de trabalho e o acesso à saúde do paciente.
+* **Tecnologias:** HTML5escrição:** Plataforma para agendamento de consultas, otimizando o fluxo de trabalho e o acesso à saúde do paciente.
 * **Link para o Código:** Em desenvolvimento
 * **Link para a Demo Live:** Em desenvolvimento
 
