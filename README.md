@@ -21,7 +21,7 @@ Dedico-me à construção de soluções escaláveis e eficientes, aplicando as m
 
 #### Cuida+ SESI Saúde
 * **Tecnologias:** JavaScript
-* * Descrição:** Plataforma para agendamento de consultas, otimizando o fluxo de trabalho e o acesso à saúde do paciente.
+* **Descrição:** Plataforma para agendamento de consultas, otimizando o fluxo de trabalho e o acesso à saúde do paciente
 * **Link para o Código:** Em desenvolvimento
 * **Link para a Demo Live:** Em desenvolvimento
 
