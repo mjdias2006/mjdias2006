@@ -10,9 +10,9 @@ Dedico-me à construção de soluções escaláveis e eficientes, aplicando as m
 
 | Categoria | Tecnologias Principais |
 | :--- | :--- |
-| **Linguagens** | JavaScript |
-| **Front-end** | JavaScript |
-| **Back-end/Dados** | JavaScript |
+| **Linguagens** | JavaScript, TypeScript |
+| **Front-end** | JavaScript, TypeScript |
+| **Back-end/Dados** | JavaScript, TypeScript |
 | **Ferramentas/Cloud** | Git, Figma, ParrotOS  |
 
 ---
