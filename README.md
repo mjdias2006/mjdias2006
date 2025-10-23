@@ -13,7 +13,7 @@ Dedico-me à construção de soluções escaláveis e eficientes, aplicando as m
 | **Linguagens** | JavaScript, TypeScript |
 | **Front-end** | JavaScript, TypeScript |
 | **Back-end/Dados** | JavaScript, TypeScript |
-| **Ferramentas/Cloud** | Git, Figma, ParrotOS  |
+| **Ferramentas/Cloud** | Git, Canva, ArchLinux  |
 
 ---
 
