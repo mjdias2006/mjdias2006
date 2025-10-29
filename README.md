@@ -10,17 +10,17 @@ Dedico-me à construção de soluções escaláveis e eficientes, aplicando as m
 
 | Categoria | Tecnologias Principais |
 | :--- | :--- |
-| **Linguagens** | JavaScript, TypeScript |
-| **Front-end** | JavaScript, TypeScript |
-| **Back-end/Dados** | JavaScript, TypeScript |
-| **Ferramentas/Cloud** | Git, Canva, ArchLinux  |
+| **Linguagens** | JavaScript |
+| **Front-end** | JavaScript, HTML, CSS |
+| **Back-end/Dados** | JavaScript |
+| **Ferramentas/Cloud** | Linux, Git |
 
 ---
 
 ### 📂 Projetos em Destaque
 
 #### Cuida+ SESI
-* **Tecnologias:** JavaScript, TypeScript
+* **Tecnologias:** JavaScript, CSS e HTML
 * **Descrição:** Plataforma para agendamento de consultas, otimizando o fluxo de trabalho e o acesso à saúde do paciente
 * **Link para o Código:** Em desenvolvimento
 * **Link para a Demo Live:** Em desenvolvimento
