@@ -1,6 +1,6 @@
 ## 👨‍💻 Perfil Profissional | Miguel Jesus Dias
 
-Sou Discente Desenvolvedor de Sistemas, focado(a) em **Cibersegurança e Front-End**.
+Sou Discente Desenvolvedor de Sistemas, focado(a) em **Cibersegurança e Cloud Computing**.
 
 Dedico-me à construção de soluções escaláveis e eficientes, aplicando as melhores práticas do mercado para **otimização de processos lógicos, garantindo a resiliência e soberania dos dados**.
 
@@ -11,8 +11,8 @@ Dedico-me à construção de soluções escaláveis e eficientes, aplicando as m
 | Categoria | Tecnologias Principais |
 | :--- | :--- |
 | **Linguagens** | JavaScript |
-| **Front-end** | JavaScript, HTML, CSS |
-| **Back-end/Dados** | JavaScript |
+| **Front-End** | JavaScript, HTML, CSS |
+| **Back-End/Dados** | JavaScript |
 | **Ferramentas/Cloud** | Linux, Git |
 
 ---
