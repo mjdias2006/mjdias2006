@@ -1,6 +1,6 @@
 ## 👨‍💻 Perfil Profissional | Miguel Jesus Dias
 
-Sou Discente Desenvolvedor de Sistemas, focado(a) em **Cibersegurança e Cloud Computing**.
+Sou Discente Desenvolvedor de Sistemas, focado(a) em **Cybersecurity e Cloud Computing**.
 
 Dedico-me à construção de soluções escaláveis e eficientes, aplicando as melhores práticas do mercado para **otimização de processos lógicos, garantindo a resiliência e soberania dos dados**.
 
