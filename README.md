@@ -10,10 +10,10 @@ Dedico-me à construção de soluções escaláveis e eficientes, aplicando as m
 
 | Categoria | Tecnologias Principais |
 | :--- | :--- |
-| **Linguagens** | JavaScript |
+| **Linguagens** | JavaScript, Dart |
 | **Front-End** | JavaScript, HTML, CSS |
-| **Back-End/Dados** | JavaScript |
-| **Ferramentas/Cloud** | Linux, Git |
+| **Back-End/Dados** | JavaScript, Dart |
+| **Ferramentas/Cloud** | Linux, Git, Figma |
 
 ---
 
