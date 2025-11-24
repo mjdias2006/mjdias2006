@@ -10,9 +10,9 @@ Dedico-me à construção de soluções escaláveis e eficientes, aplicando as m
 
 | Categoria | Tecnologias Principais |
 | :--- | :--- |
-| **Linguagens** | JavaScript, Dart |
+| **Linguagens** | JavaScript |
 | **Front-End** | JavaScript, HTML, CSS |
-| **Back-End/Dados** | JavaScript, Dart |
+| **Back-End/Dados** | JavaScript |
 | **Ferramentas/Cloud** | Linux, Git, Figma |
 
 ---
@@ -22,8 +22,8 @@ Dedico-me à construção de soluções escaláveis e eficientes, aplicando as m
 #### Cuida+ SESI
 * **Tecnologias:** JavaScript, CSS e HTML
 * **Descrição:** Plataforma para agendamento de consultas, otimizando o fluxo de trabalho e o acesso à saúde do paciente
-* **Link para o Código:** Em desenvolvimento
-* **Link para a Demo Live:** Em desenvolvimento
+* **Link para o Código:** Privado
+* **Link para a Demo Live:** Privado
 
 ---
 
