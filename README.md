@@ -3,7 +3,7 @@
   # Miguel Jesus Dias
 
   ### 🔐 Cybersecurity & DevSecOps Enthusiast
-  
+   
   <p align="center">
     <i>Construindo soluções escaláveis com foco em resiliência e soberania de dados.</i>
   </p>
@@ -16,7 +16,10 @@
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
+    <br>
     <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+    <img src="https://img.shields.io/badge/BlackArch-000000?style=for-the-badge&logo=blackarch&logoColor=red" alt="BlackArch" />
+    <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
     <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   </p>
 
