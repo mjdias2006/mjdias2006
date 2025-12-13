@@ -4,7 +4,7 @@
 
   ### 🔐 Cybersecurity & DevSecOps Enthusiast
   #### 🎓 Estudante de Desenvolvimento de Sistemas
-   
+    
   <p align="center">
     <i>Construindo soluções escaláveis com foco em resiliência e soberania de dados.</i>
   </p>
@@ -30,7 +30,7 @@
 
   | Projeto | Tech | Detalhes |
   | :--- | :---: | :--- |
-  | **Cuida+ SESI** | `JS` `CSS` `HTML` | Plataforma de agendamento de saúde focada em otimização de fluxo e UX. |
+  | **Cuida+ SESI Saúde** | `JS` `CSS` `HTML` | Plataforma de agendamento de saúde focada em otimização de fluxo e UX. |
 
   <br>
 
@@ -47,6 +47,9 @@
   </a>
   <a href="mailto:mj.dias@proton.me">
     <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=flat&logo=protonmail&logoColor=white" alt="ProtonMail Badge"/>
+  </a>
+  <a href="https://orcid.org/0009-0003-7327-9962">
+    <img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white" alt="ORCID Badge"/>
   </a>
 
 </div>
