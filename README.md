@@ -2,8 +2,8 @@
 
   # Miguel Jesus Dias
 
-  ### 🔐 Cybersecurity & Mobile AppSec Enthusiast
-  #### 🎓 Estudante de Desenvolvimento de Sistemas
+  ### 🔐 Cybersecurity & Mobile Enthusiast
+  #### 🎓 Estudante de Engenharia de Software & Desenvolvimento de Sistemas
     
   <p align="center">
     <i>Construindo soluções escaláveis com foco em resiliência e soberania de dados.</i>
