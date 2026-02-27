@@ -1,31 +1,54 @@
-# Miguel Jesus Dias
-### Software Engineering Student & Full-Stack Developer
+<div align="center">
 
-Estudante de Engenharia de Software focado em construir soluções robustas e escaláveis. Atuo em todo o ciclo de vida do software, unindo interfaces responsivas a back-ends resilientes.
+  # 🌌 Miguel Jesus Dias
+  ### Engenharia de Software | Desenvolvimento de Sistemas
+  
+  <p align="center">
+    <i>Focado na arquitetura de soluções, análise de sistemas e soberania de dados.</i>
+  </p>
 
----
+  ---
 
-### 🛠️ Tech Stack
-* **Linguagens:** JavaScript (ES6+), HTML5, CSS3
-* **Ferramentas:** Git, GitHub, Linux (Environment)
-* **Workflow:** Desenvolvimento de APIs, Arquitetura de Sistemas, UI/UX Essentials
+  ### 🏛️ Perfil Acadêmico
+  Estudante dedicado à compreensão profunda do **Ciclo de Vida de Software**. Meu foco não é apenas o código, mas a **estratégia de dados** e a criação de interfaces que respeitam a experiência do usuário e a integridade da informação.
 
----
+  ---
 
-### 🏆 Conquistas
-* **Winner** | Hackathon+ SESI Saúde
-* **Silver Medal** | ONIA (Olimpíada Nacional de IA)
+  ### 🏆 Excelência e Conquistas
+  
+  | Reconhecimento | Instituição / Evento |
+  | :--- | :--- |
+  | **Vencedor do Hackathon+** | SESI Saúde (Solução inovadora em gestão) |
+  | **Medalhista de Prata** | ONIA - Olimpíada Nacional de Inteligência Artificial |
 
----
+  ---
 
-### 📂 No que estou trabalhando
-Atualmente focado no aprofundamento de arquitetura de sistemas e integração de APIs, buscando entregar soberania de dados e performance em cada linha de código.
+  ### 🎯 Áreas de Interesse e Estudo
+  
+  * **Engenharia de Requisitos:** Transformando problemas reais em soluções sistêmicas.
+  * **Resiliência de Dados:** Planejamento de sistemas com foco em soberania e segurança.
+  * **UI/UX Strategy:** Design focado na funcionalidade e responsividade.
 
----
+  ---
 
-### 📬 Contato
-[LinkedIn](https://www.linkedin.com/in/mjdias2006) • [Email](mailto:mj.dias@proton.me) • [ORCID](https://orcid.org/0009-0003-7327-9962)
+  ### 🛠️ Ecossistema & Ferramentas
+  
+  <img src="https://img.shields.io/badge/Linux-003366?style=for-the-badge&logo=linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-003366?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-003366?style=for-the-badge&logo=github&logoColor=white" />
 
-<br />
+  ---
 
-<img src="https://github-readme-stats.vercel.app/api?username=mjdias2006&show_icons=true&theme=transparent&hide_border=true&title_color=0077B5&icon_color=0077B5&text_color=888" alt="GitHub Stats" />
+  ### 📬 Conecte-se Comigo
+
+  <a href="https://www.linkedin.com/in/mjdias2006">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:mj.dias@proton.me">
+    <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=flat-square&logo=protonmail&logoColor=white" />
+  </a>
+  <a href="https://orcid.org/0009-0003-7327-9962">
+    <img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white" />
+  </a>
+
+</div>
