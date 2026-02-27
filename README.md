@@ -1,57 +1,31 @@
-<div align="center">
+# Miguel Jesus Dias
+### Software Engineering Student & Full-Stack Developer
 
-  # Miguel Jesus Dias
-  ### 💻 Desenvolvedor Full-Stack em Formação
-  #### 🎓 Estudante de Engenharia de Software & Desenvolvimento de Sistemas
-  
-  <p align="center">
-    <i>Focado na construção de aplicações funcionais e escaláveis, do Front-end ao Back-end.</i>
-  </p>
+Estudante de Engenharia de Software focado em construir soluções robustas e escaláveis. Atuo em todo o ciclo de vida do software, unindo interfaces responsivas a back-ends resilientes.
 
-  ---
+---
 
-  ### 🛠️ Stack Técnica
+### 🛠️ Tech Stack
+* **Linguagens:** JavaScript (ES6+), HTML5, CSS3
+* **Ferramentas:** Git, GitHub, Linux (Environment)
+* **Workflow:** Desenvolvimento de APIs, Arquitetura de Sistemas, UI/UX Essentials
 
-  **Desenvolvimento & Web**
-  <p align="left">
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS" />
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" />
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" />
-  </p>
+---
 
-  **Ferramentas & Versionamento**
-  <p align="left">
-    <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  </p>
+### 🏆 Conquistas
+* **Winner** | Hackathon+ SESI Saúde
+* **Silver Medal** | ONIA (Olimpíada Nacional de IA)
 
-  ---
+---
 
-  ### 🏆 Conquistas Acadêmicas e Profissionais
-  
-  * **Vencedor do Hackathon+ SESI Saúde** – Reconhecimento por solução inovadora em gestão de saúde.
-  * **Medalhista de Prata na ONIA** – Olimpíada Nacional de Inteligência Artificial.
+### 📂 No que estou trabalhando
+Atualmente focado no aprofundamento de arquitetura de sistemas e integração de APIs, buscando entregar soberania de dados e performance em cada linha de código.
 
-  ---
+---
 
-  ### 📂 Experiência & Projetos
+### 📬 Contato
+[LinkedIn](https://www.linkedin.com/in/mjdias2006) • [Email](mailto:mj.dias@proton.me) • [ORCID](https://orcid.org/0009-0003-7327-9962)
 
-  * **Ciclo de Vida de Software:** Atuação desde a concepção de interfaces responsivas até a lógica de APIs e estruturação de bancos de dados.
-  * **Resiliência de Dados:** Foco em criar sistemas que priorizam a integridade e a soberania das informações do usuário.
+<br />
 
-  ---
-
-  ### 📬 Contato
-
-  <a href="https://www.linkedin.com/in/mjdias2006">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:mj.dias@proton.me">
-    <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=flat&logo=protonmail&logoColor=white" />
-  </a>
-  <a href="https://orcid.org/0009-0003-7327-9962">
-    <img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white" />
-  </a>
-
-</div>
+<img src="https://github-readme-stats.vercel.app/api?username=mjdias2006&show_icons=true&theme=transparent&hide_border=true&title_color=0077B5&icon_color=0077B5&text_color=888" alt="GitHub Stats" />
