@@ -1,16 +1,16 @@
 <div align="center">
 
   # 🌌 Miguel Jesus Dias
-  ### Engenharia de Software | Desenvolvimento de Sistemas
+  ### Estudante de Engenharia de Software e Desenvolvimento de Sistemas
   
   <p align="center">
-    <i>Focado na arquitetura de soluções, análise de sistemas e soberania de dados.</i>
+    <i>Focado em Engenharia de Dados, Análise de Dados e soberania da informação.</i>
   </p>
 
   ---
 
   ### 🏛️ Perfil Acadêmico
-  Estudante dedicado à compreensão profunda do **Ciclo de Vida de Software**. Meu foco não é apenas o código, mas a **estratégia de dados** e a criação de interfaces que respeitam a experiência do usuário e a integridade da informação.
+  Sou estudante dedicado à compreensão profunda do ciclo de vida de software. Meu foco principal está na **Engenharia e Análise de Dados**, construindo arquiteturas resilientes e extraindo valor estratégico da informação, sempre respeitando a experiência do usuário e a integridade do sistema.
 
   ---
 
@@ -18,16 +18,15 @@
   
   | Reconhecimento | Instituição / Evento |
   | :--- | :--- |
-  | **Vencedor do Hackathon+** | SESI Saúde (Solução inovadora em gestão) |
   | **Medalhista de Prata** | ONIA - Olimpíada Nacional de Inteligência Artificial |
 
   ---
 
   ### 🎯 Áreas de Interesse e Estudo
   
-  * **Engenharia de Requisitos:** Transformando problemas reais em soluções sistêmicas.
-  * **Resiliência de Dados:** Planejamento de sistemas com foco em soberania e segurança.
-  * **UI/UX Strategy:** Design focado na funcionalidade e responsividade.
+  * **Engenharia de Dados:** Criação e manutenção de pipelines de dados robustos e escaláveis.
+  * **Análise de Dados:** Transformação de dados brutos em insights estratégicos.
+  * **Resiliência e Soberania de Dados:** Planejamento de sistemas seguros e confiáveis.
 
   ---
 
@@ -36,7 +35,6 @@
   <img src="https://img.shields.io/badge/Linux-003366?style=for-the-badge&logo=linux&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-003366?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub-003366?style=for-the-badge&logo=github&logoColor=white" />
-
   ---
 
   ### 📬 Conecte-se Comigo
