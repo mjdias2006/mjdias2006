@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 2, 6, 23;
+    --background-end-rgb: 2, 6, 23;
+}
+
+/* =========================================
+ *  1. CLASSES CUSTOMIZADAS (O QUE SUMIU)
+ *  ========================================= */
+@layer components {
+    .glass-card {
+        @apply bg-slate-900/40 backdrop-blur-md border border-slate-800 shadow-xl transition-all;
+    }
+}
+
+/* =========================================
+ *  2. SCROLLBAR MINIMALISTA
+ *  ========================================= */
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-track {
+    background: #020617;
+}
+::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #22d3ee;
+}
+
+/* =========================================
+ *  3. SELEÇÃO DE TEXTO CUSTOMIZADA
+ *  ========================================= */
+::selection {
+    background: rgba(34, 211, 238, 0.2);
+    color: #22d3ee;
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+    background: rgb(var(--background-start-rgb));
+    overflow-x: hidden;
+}
+
+/* =========================================
+ *  4. TEXTURA DE RUÍDO ORGÂNICA
+ *  ========================================= */
+@keyframes noise {
+    0%, 100% { transform: translate(0, 0); }
+    10% { transform: translate(-5%, -10%); }
+    30% { transform: translate(3%, -15%); }
+    50% { transform: translate(12%, 9%); }
+    70% { transform: translate(9%, 4%); }
+    90% { transform: translate(-1%, 7%); }
+}
+
+.noise-bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 200%;
+    height: 200%;
+    background: url('https://grainy-gradients.vercel.app/noise.svg');
+    background-repeat: repeat;
+    animation: noise 8s steps(10) infinite;
+    opacity: 0.04;
+    pointer-events: none;
+    z-index: 50;
+}
