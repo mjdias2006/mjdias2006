@@ -1,67 +1,75 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import GithubStatus from "./GithubStatus";
 
 export default function Hero() {
-    // Configuração para animação em cascata (Stagger)
-    const containerVariants = {
+    // Tipagem explícita para evitar erros no npx tsc
+    const containerVariants: Variants = {
         hidden: { opacity: 0 },
         visible: {
             opacity: 1,
             transition: {
-                staggerChildren: 0.2, // Intervalo entre cada item
-                delayChildren: 0.3,   // Atraso inicial antes de começar
+                staggerChildren: 0.15,
+                delayChildren: 0.4,
             },
         },
     };
 
-    // Configuração para o efeito de revelação com desfoque (Apple-style)
-    const itemVariants = {
-        hidden: { opacity: 0, y: 20, filter: "blur(10px)" },
+    const itemVariants: Variants = {
+        hidden: {
+            opacity: 0,
+            y: 25,
+            filter: "blur(12px)"
+        },
         visible: {
             opacity: 1,
             y: 0,
             filter: "blur(0px)",
-            transition: { duration: 0.8, ease: "easeOut" }
+            transition: {
+                duration: 0.8,
+                ease: [0.22, 1, 0.36, 1] // Curva de velocidade "Quint" (estilo Apple)
+            }
         },
     };
 
     return (
-        <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-24 pb-12 relative overflow-hidden">
-        {/* Brilho de fundo para profundidade */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-cyan-500/10 rounded-full blur-[120px] -z-10" />
+        <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-20 relative overflow-hidden">
+        {/* Glow de fundo reativo à estética de dados */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-cyan-500/5 rounded-full blur-[120px] -z-10" />
 
         <motion.div
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="max-w-4xl flex flex-col items-center"
+        className="max-w-5xl flex flex-col items-center"
         >
-        {/* 1. Status do GitHub (Indicador de Atividade Real-time) */}
-        <motion.div variants={itemVariants} className="mb-8">
+        {/* 1. Status em tempo real do GitHub */}
+        <motion.div variants={itemVariants} className="mb-10">
         <GithubStatus />
         </motion.div>
 
-        {/* 2. Título Principal com Tipografia Premium */}
+        {/* 2. Headline com tipografia de alto impacto */}
         <motion.h1
         variants={itemVariants}
-        className="text-6xl md:text-8xl font-black mb-6 tracking-tight text-white leading-none"
+        className="text-7xl md:text-9xl font-black mb-8 tracking-tighter text-white leading-[0.9]"
         >
-        Miguel Jesus <span className="text-cyan-500">Dias</span>
+        Miguel Jesus <br />
+        <span className="text-cyan-500">Dias</span>
         </motion.h1>
 
-        {/* 3. Subtítulo com Estética de Terminal (Corrigido o token '>') */}
+        {/* 3. Descrição com estética de Terminal e Geist Mono */}
         <motion.div variants={itemVariants} className="mb-12">
-        <p className="text-xl md:text-2xl text-slate-400 font-light font-mono tracking-tight leading-relaxed">
+        <p className="text-xl md:text-2xl text-slate-400 font-light font-mono tracking-tight mb-6">
         <span className="text-cyan-500 font-bold"> {">"} </span>
         Engenheiro de Dados em formação
         </p>
-        <div className="mt-4 flex justify-center gap-3">
-        {["SQL", "Python", "Linux"].map((tech) => (
+
+        <div className="flex flex-wrap justify-center gap-3">
+        {["SQL", "Python", "Linux", "GCP"].map((tech) => (
             <span
             key={tech}
-            className="px-3 py-1 text-[10px] md:text-xs font-bold uppercase tracking-[0.2em] bg-slate-900 border border-slate-800 text-slate-500 rounded-md"
+            className="px-4 py-1.5 text-[10px] md:text-xs font-bold uppercase tracking-[0.3em] bg-slate-900/50 border border-white/5 text-slate-500 rounded-full backdrop-blur-sm"
             >
             {tech}
             </span>
@@ -69,36 +77,38 @@ export default function Hero() {
         </div>
         </motion.div>
 
-        {/* 4. Chamadas para Ação (CTAs) */}
-        <motion.div variants={itemVariants} className="flex flex-wrap justify-center gap-6 relative z-10">
+        {/* 4. Ações Magnéticas */}
+        <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-6 items-center relative z-10">
         <motion.a
         href="#projects"
-        whileHover={{ scale: 1.05, y: -2 }}
-        whileTap={{ scale: 0.95 }}
-        className="bg-white text-black px-10 py-4 rounded-full font-bold transition-all shadow-xl shadow-cyan-950/20 hover:bg-cyan-500 hover:text-white"
+        whileHover={{ scale: 1.05, y: -3 }}
+        whileTap={{ scale: 0.98 }}
+        className="bg-white text-black px-12 py-4 rounded-full font-bold transition-all shadow-2xl shadow-cyan-500/10 hover:bg-cyan-500 hover:text-white"
         >
-        Explorar Projetos
+        Ver Projetos
         </motion.a>
 
         <motion.a
         href="#contact"
-        whileHover={{ scale: 1.05, y: -2, borderColor: "rgba(34,211,238,0.5)" }}
-        whileTap={{ scale: 0.95 }}
-        className="border border-slate-800 text-slate-300 px-10 py-4 rounded-full font-bold transition-all"
+        whileHover={{ scale: 1.05, y: -3, borderColor: "rgba(34,211,238,0.4)" }}
+        whileTap={{ scale: 0.98 }}
+        className="group flex items-center gap-3 border border-slate-800 text-slate-400 px-12 py-4 rounded-full font-bold transition-all hover:text-white"
         >
-        Iniciar Conversa
+        Contato
+        <span className="group-hover:translate-x-1 transition-transform">→</span>
         </motion.a>
         </motion.div>
         </motion.div>
 
-        {/* Indicador de Scroll Suave no final da tela */}
+        {/* Indicador de continuidade visual */}
         <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ delay: 2, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-slate-600 hidden md:block"
+        transition={{ delay: 2.5, duration: 1.5 }}
+        className="absolute bottom-12 left-1/2 -translate-x-1/2 flex flex-col items-center gap-4 hidden md:flex"
         >
-        <div className="w-[1px] h-12 bg-gradient-to-b from-cyan-500 to-transparent mx-auto" />
+        <span className="text-[10px] font-mono text-slate-700 uppercase tracking-[0.5em] rotate-90 mb-8">Scroll</span>
+        <div className="w-[1px] h-16 bg-gradient-to-b from-cyan-500/50 to-transparent" />
         </motion.div>
         </section>
     );

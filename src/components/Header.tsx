@@ -30,7 +30,7 @@ export default function Header() {
             {link.name}
             <motion.span
             className="absolute left-0 bottom-0 w-0 h-px bg-cyan-400"
-            whileHover={{ w: "100%" }}
+            whileHover={{ width: "100%" }}
             transition={{ duration: 0.3 }}
             />
             </motion.a>
