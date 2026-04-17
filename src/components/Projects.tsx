@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 
 export default function Projects() {
-    const projects = [1, 2]; // Placeholders
+    const projects = [1, 2];
 
     return (
         <section id="projects" className="py-20 relative">

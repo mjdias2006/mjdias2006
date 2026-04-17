@@ -6,17 +6,17 @@ import {
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
-// NOVAS PORCENTAGENS: Focadas em Base Sólida para Iniciante
+// 1. Array 'data' atualizado com R (nível 55 igual ao Python)
 const data = [
-    { subject: 'SQL', A: 65, fullMark: 100 },        // Base Sólida (Joins, Aggregations)
-    { subject: 'Linux', A: 60, fullMark: 100 },      // Comandos Básicos e Permissões
-{ subject: 'Python', A: 55, fullMark: 100 },     // Lógica e Estruturas de Dados
-{ subject: 'Git', A: 40, fullMark: 100 },        // Versionamento Básico (Commit, Push)
-{ subject: 'GitHub', A: 40, fullMark: 100 },     // Repositórios e Pull Requests
-{ subject: 'Power BI', A: 35, fullMark: 100 },   // Visualização Básica de Dados
+    { subject: 'SQL', A: 65, fullMark: 100 },
+{ subject: 'Linux', A: 60, fullMark: 100 },
+{ subject: 'Python', A: 55, fullMark: 100 },
+{ subject: 'R', A: 55, fullMark: 100 }, // Adicionado aqui
+{ subject: 'Git', A: 40, fullMark: 100 },
+{ subject: 'GitHub', A: 40, fullMark: 100 },
+{ subject: 'Power BI', A: 35, fullMark: 100 },
 ];
 
-// Estilização customizada para o Tooltip (Funcionalidade)
 const CustomTooltip = ({ active, payload }: any) => {
     if (active && payload && payload.length) {
         return (
@@ -53,10 +53,9 @@ export default function SkillsChart() {
         transition={{ duration: 1, ease: "easeOut" }}
         className="w-full flex flex-col items-center justify-center mt-12 glass-card rounded-3xl p-8 border border-white/5 relative overflow-hidden"
         >
-        {/* Decoração de fundo para Profundidade */}
+
         <div className="absolute inset-0 bg-gradient-to-b from-cyan-500/5 to-transparent pointer-events-none" />
 
-        {/* NOVO NOME: Mais Profissional e Condizente com Iniciante */}
         <h4 className="text-slate-500 font-mono text-[10px] md:text-xs mb-8 uppercase tracking-[0.4em] z-10">
         Status de Proficiência
         </h4>
@@ -70,19 +69,16 @@ export default function SkillsChart() {
         height={chartSize}
         data={data}
         >
-        {/* Grade com efeito sutil */}
+
         <PolarGrid stroke="#1e293b" strokeDasharray="3 3" />
 
-        {/* Eixos com fonte mono */}
         <PolarAngleAxis
         dataKey="subject"
         tick={{ fill: '#94a3b8', fontSize: 11, fontFamily: 'monospace', fontWeight: 600 }}
         />
 
-        {/* Tooltip funcional para interatividade */}
         <Tooltip content={<CustomTooltip />} cursor={false} />
 
-        {/* O Radar com Animação Ativa */}
         <Radar
         name="Miguel"
         dataKey="A"
@@ -91,14 +87,12 @@ export default function SkillsChart() {
         fill="url(#radarGradient)"
         fillOpacity={0.6}
 
-        // CONFIGURAÇÃO DE ANIMAÇÃO REAL
         isAnimationActive={true}
         animationBegin={500}
         animationDuration={2500}
         animationEasing="ease-in-out"
         />
 
-        {/* Definição de Gradiente para o preenchimento do Radar */}
         <defs>
         <linearGradient id="radarGradient" x1="0" y1="0" x2="0" y2="1">
         <stop offset="5%" stopColor="#22d3ee" stopOpacity={0.8}/>

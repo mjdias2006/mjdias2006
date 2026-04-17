@@ -31,13 +31,12 @@ export default function ScrollUtils() {
 
     return (
         <>
-        {/* Barra de Progresso no Topo */}
+
         <motion.div
         className="fixed top-0 left-0 right-0 h-1 bg-cyan-500 origin-left z-[60]"
         style={{ scaleX }}
         />
 
-        {/* Botão Voltar ao Topo */}
         {showTop && (
             <motion.button
             initial={{ opacity: 0, scale: 0.5 }}

@@ -4,7 +4,7 @@ import { motion, Variants } from "framer-motion";
 import GithubStatus from "./GithubStatus";
 
 export default function Hero() {
-    // Tipagem explícita para evitar erros no npx tsc
+
     const containerVariants: Variants = {
         hidden: { opacity: 0 },
         visible: {
@@ -28,14 +28,14 @@ export default function Hero() {
             filter: "blur(0px)",
             transition: {
                 duration: 0.8,
-                ease: [0.22, 1, 0.36, 1] // Curva de velocidade "Quint" (estilo Apple)
+                ease: [0.22, 1, 0.36, 1]
             }
         },
     };
 
     return (
         <section className="min-h-screen flex flex-col justify-center items-center text-center px-6 pt-20 relative overflow-hidden">
-        {/* Glow de fundo reativo à estética de dados */}
+
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-cyan-500/5 rounded-full blur-[120px] -z-10" />
 
         <motion.div
@@ -49,7 +49,6 @@ export default function Hero() {
         <GithubStatus />
         </motion.div>
 
-        {/* 2. Headline com tipografia de alto impacto */}
         <motion.h1
         variants={itemVariants}
         className="text-7xl md:text-9xl font-black mb-8 tracking-tighter text-white leading-[0.9]"
@@ -58,7 +57,6 @@ export default function Hero() {
         <span className="text-cyan-500">Dias</span>
         </motion.h1>
 
-        {/* 3. Descrição com estética de Terminal e Geist Mono */}
         <motion.div variants={itemVariants} className="mb-12">
         <p className="text-xl md:text-2xl text-slate-400 font-light font-mono tracking-tight mb-6">
         <span className="text-cyan-500 font-bold"> {">"} </span>
@@ -66,7 +64,7 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-wrap justify-center gap-3">
-        {["SQL", "Python", "Linux", "GCP"].map((tech) => (
+        {["PowerBI", "SQL", "Python", "R"].map((tech) => (
             <span
             key={tech}
             className="px-4 py-1.5 text-[10px] md:text-xs font-bold uppercase tracking-[0.3em] bg-slate-900/50 border border-white/5 text-slate-500 rounded-full backdrop-blur-sm"
@@ -77,7 +75,6 @@ export default function Hero() {
         </div>
         </motion.div>
 
-        {/* 4. Ações Magnéticas */}
         <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-6 items-center relative z-10">
         <motion.a
         href="#projects"
@@ -100,7 +97,6 @@ export default function Hero() {
         </motion.div>
         </motion.div>
 
-        {/* Indicador de continuidade visual */}
         <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

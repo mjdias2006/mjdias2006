@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 
 export default function Education() {
     const edu = [
-        { title: "Engenharia de Software", institution: "Gran Centro Universitário", years: "2026 - 2030" }, // Atualizado
+        { title: "Engenharia de Software", institution: "Gran Centro Universitário", years: "2026 - 2030" },
         { title: "Desenvolvimento de Sistemas", institution: "SENAI CETIND", years: "2025 - 2027" },
-        { title: "Ensino Médio", institution: "SESI Djalma Pessoa", years: "2022 - 2024" }
+        { title: "Ensino Médio", institution: "Escola SESI Djalma Pessoa", years: "2022 - 2024" }
     ];
 
     return (

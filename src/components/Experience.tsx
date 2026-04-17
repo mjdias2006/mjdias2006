@@ -30,7 +30,7 @@ export default function Experience() {
         </motion.h3>
 
         <div className="space-y-12 relative">
-        {/* Linha vertical da timeline animada */}
+
         <motion.div
         initial={{ height: 0 }}
         whileInView={{ height: "100%" }}
@@ -48,7 +48,7 @@ export default function Experience() {
             transition={{ type: "spring", stiffness: 100, damping: 20, delay: index * 0.3 }}
             className="border-l-4 border-blue-600 pl-10 relative group"
             >
-            {/* Ponto na timeline animado */}
+
             <motion.div
             initial={{ scale: 0 }}
             whileInView={{ scale: 1 }}

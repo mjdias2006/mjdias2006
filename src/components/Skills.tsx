@@ -2,12 +2,13 @@
 
 import { motion } from "framer-motion";
 import { FaPython, FaDatabase, FaGitAlt, FaGithub, FaLinux, FaChartBar } from "react-icons/fa";
+import { SiR } from "react-icons/si";
 
 export default function Skills() {
-    // Lista de skills atualizada com Python no topo
     const skills = [
         { name: "Python", icon: <FaPython className="text-4xl mb-4" /> },
         { name: "SQL", icon: <FaDatabase className="text-4xl mb-4" /> },
+        { name: "R", icon: <SiR className="text-4xl mb-4" /> },
         { name: "Power BI", icon: <FaChartBar className="text-4xl mb-4" /> },
         { name: "Git", icon: <FaGitAlt className="text-4xl mb-4" /> },
         { name: "GitHub", icon: <FaGithub className="text-4xl mb-4" /> },
