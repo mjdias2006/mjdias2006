@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 export default function Achievements() {
     const items = [
         "🏆 Vencedor Hackathon+ SESI Saúde",
-        "🥈 Medalha de Prata ONIA (IA)",
+        "🥈 Mérito de Prata ONIA (IA)",
         "🚀 Engenharia de Software @ Gran Centro Universitário",
         "💻 Dev. Sistemas @ SENAI CETIND",
-        "✨ Foco em Data Engineering",
-        "📊 SQL & Power BI",
+        "✨ Foco em Analytics Engineering",
+        "📊 SQL, Python & Power BI",
     ];
 
     return (

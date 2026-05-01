@@ -29,7 +29,7 @@ export default function Contact() {
         transition={{ duration: 0.6 }}
         className="text-4xl md:text-5xl font-black mb-12 text-white tracking-tight"
         >
-        Pronto para transformar o caos dos seus dados em pipelines de valor?
+        Pronto para transformar dados brutos em modelos analíticos confiáveis e prontos para a tomada de decisão?
         </motion.h3>
 
         <div className="flex flex-col md:flex-row justify-center gap-6 text-lg font-medium max-w-4xl mx-auto px-4">

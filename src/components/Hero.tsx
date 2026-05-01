@@ -60,7 +60,7 @@ export default function Hero() {
         <motion.div variants={itemVariants} className="mb-12">
         <p className="text-xl md:text-2xl text-slate-400 font-light font-mono tracking-tight mb-6">
         <span className="text-cyan-500 font-bold"> {">"} </span>
-        Engenheiro de Dados em formação
+        Engenheiro de Analytics em formação
         </p>
 
         <div className="flex flex-wrap justify-center gap-3">

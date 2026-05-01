@@ -6,7 +6,6 @@ import {
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
-// 1. Array 'data' atualizado com R (nível 55 igual ao Python)
 const data = [
     { subject: 'SQL', A: 65, fullMark: 100 },
 { subject: 'Linux', A: 60, fullMark: 100 },
