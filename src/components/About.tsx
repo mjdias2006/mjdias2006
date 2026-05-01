@@ -10,7 +10,7 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[180px]">
         {/* Biografia Grande */}
         <SpotlightCard className="md:col-span-3 md:row-span-2 p-8 flex flex-col justify-center">
-        <h4 className="text-xl font-bold mb-4 text-white">Engenheiro de Dados em Construção</h4>
+        <h4 className="text-xl font-bold mb-4 text-white">Engenheiro de Analytics em Construção</h4>
         <p className="text-slate-400 text-lg leading-relaxed">
         Acredito no poder da tecnologia para guiar decisões estratégicas de alto impacto.
         Foco no ciclo completo: extração, pipelines e modelagem de insights.
