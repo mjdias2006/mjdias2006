@@ -8,13 +8,15 @@ export default function Projects() {
             title: "ETL Pipeline",
             desc: "Pipeline de ETL em Python para automação de análise de portfólios.",
             link: "https://github.com/mjdias2006/dio-etl-pipeline-starter",
-            image: "/etl-preview.png" // Nome da imagem do ETL na pasta public
+            // URL direta do arquivo no seu repositório GitHub
+            image: "https://raw.githubusercontent.com/mjdias2006/dio-etl-pipeline-starter/main/assets/main_script_overview.png"
         },
         {
             title: "Sales Dashboard",
             desc: "Dashboard de BI no Excel/Power BI para monitoramento de métricas SaaS.",
             link: "https://github.com/mjdias2006/dio-rdstation-sales-dashboard",
-            image: "/dashboard_overview.png" // Nome da imagem na pasta public
+            // URL direta do arquivo no seu repositório GitHub
+            image: "https://raw.githubusercontent.com/mjdias2006/dio-rdstation-sales-dashboard/main/assets/dashboard_overview.png"
         }
     ];
 
@@ -43,9 +45,16 @@ export default function Projects() {
             whileHover={{ y: -10 }}
             className="glass-card rounded-3xl border-2 border-slate-800 hover:border-cyan-500/50 transition-all p-4 group cursor-pointer flex flex-col"
             >
-            {/* Imagem adicionada aqui */}
-            <div className="w-full h-48 overflow-hidden rounded-2xl mb-4">
-            <img src={p.image} alt={p.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div className="w-full h-48 overflow-hidden rounded-2xl mb-4 bg-slate-950">
+            <img
+            src={p.image}
+            alt={p.title}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            onError={(e) => {
+                // Caso a imagem não carregue, mantém um placeholder ou esconde
+                (e.target as HTMLImageElement).src = 'https://via.placeholder.com/400x200?text=Imagem+Indisponivel';
+            }}
+            />
             </div>
 
             <div className="text-center p-2">
