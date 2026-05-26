@@ -8,9 +8,10 @@ import { useEffect, useState } from "react";
 
 const data = [
     { subject: 'SQL', A: 65, fullMark: 100 },
+{ subject: 'NoSQL', A: 50, fullMark: 100 },
 { subject: 'Linux', A: 60, fullMark: 100 },
 { subject: 'Python', A: 55, fullMark: 100 },
-{ subject: 'R', A: 55, fullMark: 100 }, // Adicionado aqui
+{ subject: 'R', A: 55, fullMark: 100 },
 { subject: 'Git', A: 40, fullMark: 100 },
 { subject: 'GitHub', A: 40, fullMark: 100 },
 { subject: 'Power BI', A: 35, fullMark: 100 },

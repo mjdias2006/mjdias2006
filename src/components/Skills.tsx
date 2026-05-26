@@ -2,12 +2,13 @@
 
 import { motion } from "framer-motion";
 import { FaPython, FaDatabase, FaGitAlt, FaGithub, FaLinux, FaChartBar } from "react-icons/fa";
-import { SiR } from "react-icons/si";
+import { SiR, SiMongodb } from "react-icons/si"; // Adicionado SiMongodb
 
 export default function Skills() {
     const skills = [
         { name: "Python", icon: <FaPython className="text-4xl mb-4" /> },
         { name: "SQL", icon: <FaDatabase className="text-4xl mb-4" /> },
+        { name: "NoSQL", icon: <SiMongodb className="text-4xl mb-4" /> }, // Adicionado
         { name: "R", icon: <SiR className="text-4xl mb-4" /> },
         { name: "Power BI", icon: <FaChartBar className="text-4xl mb-4" /> },
         { name: "Git", icon: <FaGitAlt className="text-4xl mb-4" /> },

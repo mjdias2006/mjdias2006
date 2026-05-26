@@ -44,7 +44,6 @@ export default function Hero() {
         animate="visible"
         className="max-w-5xl flex flex-col items-center"
         >
-        {/* 1. Status em tempo real do GitHub */}
         <motion.div variants={itemVariants} className="mb-10">
         <GithubStatus />
         </motion.div>

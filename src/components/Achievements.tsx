@@ -3,7 +3,8 @@ import { motion } from "framer-motion";
 
 export default function Achievements() {
     const items = [
-        "🏆 Vencedor Hackathon+ SESI Saúde",
+        "🏆 1º Lugar: Hackathon+ SESI Saúde",
+        "🏆 1º Lugar: Grand Prix SENAI Inovação (INDEX 2026)",
         "🥈 Mérito de Prata ONIA (IA)",
         "🚀 Engenharia de Software @ Gran Centro Universitário",
         "💻 Dev. Sistemas @ SENAI CETIND",

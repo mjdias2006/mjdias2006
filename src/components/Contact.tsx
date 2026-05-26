@@ -19,7 +19,6 @@ export default function Contact() {
         transition={{ duration: 1 }}
         className="py-24 text-center border-t border-white/5 relative overflow-hidden mt-10"
         >
-        {/* Brilho sutil no contato */}
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-96 h-96 bg-cyan-600/10 rounded-full blur-[100px] -z-10" />
 
         <motion.h3
