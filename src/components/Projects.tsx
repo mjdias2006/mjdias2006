@@ -7,12 +7,14 @@ export default function Projects() {
         {
             title: "ETL Pipeline",
             desc: "Pipeline de ETL em Python para automação de análise de portfólios.",
-            link: "https://github.com/mjdias2006/dio-etl-pipeline-starter"
+            link: "https://github.com/mjdias2006/dio-etl-pipeline-starter",
+            image: "/etl-preview.png" // Nome da imagem do ETL na pasta public
         },
         {
             title: "Sales Dashboard",
             desc: "Dashboard de BI no Excel/Power BI para monitoramento de métricas SaaS.",
-            link: "https://github.com/mjdias2006/dio-rdstation-sales-dashboard"
+            link: "https://github.com/mjdias2006/dio-rdstation-sales-dashboard",
+            image: "/dashboard_overview.png" // Nome da imagem na pasta public
         }
     ];
 
@@ -38,16 +40,21 @@ export default function Projects() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ type: "spring", stiffness: 100, damping: 20, delay: index * 0.2 }}
-            whileHover={{ y: -10, boxShadow: "0px 0px 40px rgba(6, 182, 212, 0.2)" }}
-            className="glass-card h-72 rounded-3xl flex flex-col items-center justify-center border-2 border-slate-800 hover:border-cyan-500/50 transition-all p-6 group cursor-pointer"
+            whileHover={{ y: -10 }}
+            className="glass-card rounded-3xl border-2 border-slate-800 hover:border-cyan-500/50 transition-all p-4 group cursor-pointer flex flex-col"
             >
-            <h4 className="text-2xl font-bold mb-3 text-white transition-colors font-mono">{p.title}</h4>
+            {/* Imagem adicionada aqui */}
+            <div className="w-full h-48 overflow-hidden rounded-2xl mb-4">
+            <img src={p.image} alt={p.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            </div>
+
+            <div className="text-center p-2">
+            <h4 className="text-xl font-bold mb-2 text-white font-mono">{p.title}</h4>
+            <p className="text-slate-400 text-sm mb-4">{p.desc}</p>
             <span className="text-cyan-500 font-mono text-xs uppercase tracking-widest font-bold">
             // Clique para acessar
             </span>
-            <p className="text-slate-400 mt-6 text-center text-sm group-hover:text-slate-200">
-            {p.desc}
-            </p>
+            </div>
             </motion.a>
         ))}
         </div>
